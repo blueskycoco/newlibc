@@ -44,7 +44,7 @@ _DEFUN (__do_register_exitproc,
 
   if (type != __et_atexit)
     {
-      args = &p->_on_exit_args;
+//      args = &p->_on_exit_args;
       args->_fnargs[p->_ind] = arg;
       args->_fntypes |= (1 << p->_ind);
       args->_dso_handle[p->_ind] = d;

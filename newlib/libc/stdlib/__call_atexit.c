@@ -80,7 +80,7 @@ _DEFUN (__call_exitprocs, (code, d),
   if (p == NULL)
     goto end;
 
-  args = &p->_on_exit_args;
+  //args = &p->_on_exit_args;
 
 restart:
   for (n = p->_ind - 1; n >= 0; n--)
